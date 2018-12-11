@@ -1,0 +1,84 @@
+* {
+    box-sizing: border-box;
+    font: 12pt monospace;
+}
+
+:root {
+    width: 100%;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    background-color: #444;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: space-between;
+    color: #EEE;
+}
+
+strong {
+    font-weight: bold;
+}
+
+.centerbox {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0.25rem;
+    border: 1px solid #222;
+    border-left: none;
+    border-right: none;
+}
+
+textarea {
+    background-color: #EEE;
+    resize: none;
+}
+
+.hbar {
+    padding: 0.25rem;
+    text-align: center;
+    font-size: 1.2rem;
+    vertical-align: middle;
+    color: #EEE;
+}
+
+header {
+    font-weight: bold;
+}
+
+button {
+    background: none;
+    color: inherit;
+    border: none;
+    margin: 0 0.2rem;
+    padding: 0;
+    font-size: 1.2rem;
+}
+
+button:hover {
+    text-decoration: underline;
+}
+
+#info {
+    display: none;
+    text-align: center;
+    vertical-align: middle;
+    flex-shrink: 2;
+}
+
+a:link {
+    color: white;
+    text-decoration: underline;
+}
+
+a:visited {
+    color: white;
+    text-decoration: underline;
+}

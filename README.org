@@ -1,0 +1,5 @@
+#+OPTIONS: num:nil toc:nil
+#+TITLE: Scratchpad
+This is a simple web-based notepad that uses browser =localStorage= to keep your notes persistently.
+
+An instance of this notepad is [[https://ajc2.xyz/projects/scratchpad][here]]. This is completely safe to use for your convenience and your notes are not given to me. I published the source for a reason.

@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="style.css" />
+    <script src="scratchpad.js"></script>
+    <title>Scratchpad</title>
+  </head>
+  <body>
+    <header class="hbar"> Scratchpad </header>
+    <textarea id="contents" class="centerbox"
+              placeholder="Write down your thoughts...">
+    </textarea>
+    <section id="info" class="centerbox">
+      <p>Your own personal notepad where you can write anything you want. Have a lot on your mind? Want to jot down a great idea? Write it here and it will <strong>stay here.</strong></p>
+      <p>The contents of this notepad are <strong>not sent to or stored on my server.</strong> They are kept in your browser's <a href="https://developer.mozilla.org/en-US/docs/Web/API/Storage/LocalStorage">localStorage</a>, meaning that what you write down is persistent on that browser on that device. <strong>If you clear your browser data, these notes will be lost, so be careful!</strong></p>
+      <p>If for whatever reason I can't be trusted, the complete source code of this page is available on <a href="https://github.com/ajc2/scratchpad">GitHub</a>.</p>
+      <button id="okay">Okay</button>
+    </section>
+    <footer class="hbar">
+      <button id="clear">Clear</button>
+      <button id="export">Export</button>
+      <button id="about">About</button>
+    </footer>
+  </body>
+</html>
