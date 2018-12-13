@@ -1,3 +1,11 @@
+@viewport {
+    width: device-width;
+    height: device-height;
+    user-zoom: zoom;
+    orientation: auto;
+    viewport-fit: contain;
+}
+
 * {
     box-sizing: border-box;
     font: 12pt monospace;
